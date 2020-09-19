@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('https://www.quasarex.com/wp-content/uploads/2018/02/patagonia-climate-weather.jpg');
+  font-size:2rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background: linear-gradient(55deg, #03a9f4, #00bcd4); */
+}
+.location,
+.temperature {
+  height: 25vh;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(-140px);
+}
+.temperature{
+    width:20%;
+    height:14vh;
+}
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.degree-section span {
+  margin: 10px;
+  font-size: 30px;
+  margin-bottom: 26px;
+}
+.degree-section h2 {
+  font-size: 40px;
+}
